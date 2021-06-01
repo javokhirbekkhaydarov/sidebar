@@ -13,7 +13,7 @@
 
 body{
     font-family: 'Segoe UI', sans-serif;
-    transition: all .7s ease;
+    /* transition: all .7s ease; */
     
     
 }
@@ -58,9 +58,17 @@ body::-webkit-scrollbar{
     transition: .4s ease;
 
 }
+ul{
+    transition: .4s linear;
+
+}
 ul li:hover a{
     padding-left: 50px;
     color: white;
+}
+ul li:hover {
+   border-left: 3px solid rgb(57, 236, 168);
+   
 }
 
 .sidebar ul a i {
@@ -124,7 +132,7 @@ label #cancel:hover{
    }
    #check:checked ~ section {
     margin-left: 250px;
-    transition: all .5s ease;
+    transition: all .6s ease;
 
    }
    
@@ -132,8 +140,11 @@ label #cancel:hover{
 /* _+_+_+_+_+_+_+_+_+_+  bodyni ichidagi imgga stil berish  stil berish    _+_+_+_+_+_+_+_+_+_+*/
 
    section{
-     
-       height: 100%;
+     background-image: url(../img/AUDI.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+
     
 
    }
